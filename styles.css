@@ -1,0 +1,62 @@
+/* 
+Colors:
+
+[teal] title color #1BB394;
+[dark-grey] text color #233645;
+[grey] nav-base #263A4A;
+[med-grey] background-color: #4A5F73;
+[off-white] bg-box #F3F3F4;
+*/
+
+body {
+	padding-top: 70px;
+	background-color: #4A5F73;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	color: #233645;
+}
+
+/* ---- Mixed Classes ---- */
+
+.navbar-default .navbar-nav li a {
+	color: #F3F3F4;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #233645;
+	background-color: #1BB394;
+}
+
+.navbar p {
+	margin: 0;
+}
+
+h1, .h1 {
+	color: #1BB394;
+}
+
+/* ---- Classes ---- */
+
+.navbar-default .navbar-brand {
+	font-family: 'Pacifico', cursive;
+	color: #1BB394;
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+
+.navbar-default .navbar-brand:hover {
+	font-family: 'Pacifico', cursive;
+	color: #1BB394;
+}
+
+.navbar-fixed-top {
+	border-width: 0;
+	background-color: #263A4A;
+}
+
+.bg-box {
+	text-align: center;
+	background-color: #F3F3F4;
+} 
