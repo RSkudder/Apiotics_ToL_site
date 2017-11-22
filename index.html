@@ -13,14 +13,21 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top"> 
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class=container-fluid> 
+			<!-- menu hamburg for collapsing menu -->
+			<label for="menu-toggle" class="menu-label"><img class="hamburg" src="hamb-menu-icon.png" alt="menu display icon"></label>
+				<input type="checkbox" id="menu-toggle">
 			<div class=navbar-header> 
-				<p class=navbar-brand>Tree of Life</p> 
+				<!-- try heading (still block lvl) or span (not block lvl) -->
+				<h2 class=navbar-brand>Tree of Life</h2> 
 			</div> <!-- end .navbar-header -->
 				<ul class="nav navbar-nav"> 
+					<!-- add pages the pages for these links -->
 					<li><a href=#>Dashboard</a></li> 
 					<li><a href=#>Settings</a></li> 
+					<!-- Has to switch between Login & LogOut -->
+					<li><a href="login.html">Login In/Sign Up</a></li>
 					<li><a href=#>Logout</a></li> 
 				</ul> 
 		</div> <!-- end .container-fluid -->

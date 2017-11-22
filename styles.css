@@ -15,12 +15,49 @@ body {
 }
 
 p {
+	margin: 5px 0;
 	color: #233645;
 }
 
-/* ---- Mixed Classes ---- */
+a {
+	text-decoration: none;
+	color: #F3F3F4;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #F3F3F4;
+}
+
+a:hover {
+	color: #1BB394;
+	text-decoration: none;
+}
+
+input {
+  display: none;
+}
+
+label {
+	cursor: pointer;
+}
+
+/* ---- MIXED ---- */
+
+img.hamburg {
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 50px;
+  height: 50px;
+}
 
 .navbar-default .navbar-nav li a {
+	text-align: center;
+	color: #F3F3F4;
+}
+
+.navbar-default .navbar-nav li a:visited {
 	color: #F3F3F4;
 }
 
@@ -29,17 +66,61 @@ p {
 	background-color: #1BB394;
 }
 
-.navbar p {
-	margin: 0;
-}
-
 h1, .h1 {
 	color: #1BB394;
 }
 
+h2, .h2 {
+	margin: 0;
+}
+
+	/* ---- Login ---- */
+
+	#login .navbar-fixed-top {
+		background-color: #1BB394;
+	}
+
+	#login .navbar-default .navbar-brand {
+		background-color: #1BB394;
+	}
+
+	#login-push.container-fluid {
+		margin-top: 20px;
+		background-color: #1BB394;
+	}
+
+	#login h2 {
+		color: #F3F3F4;
+	}
+
+/* ---- IDs ----*/
+
+
+
 /* ---- Classes ---- */
 
+#menu-toggle:checked ~ .navbar-nav { position: absolute; left: 0; }
+
+.navbar-nav {
+	box-sizing: border-box;
+	width: 90%;
+	position: absolute;
+	background-color: #263A4A;
+	left: -90%;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+.navbar-header {
+	text-align: center;
+} 
+
 .navbar-default .navbar-brand {
+	float: initial;
+	margin-top: -20px;
 	font-family: 'Pacifico', cursive;
 	color: #1BB394;
 	font-size: 28px;
@@ -59,4 +140,31 @@ h1, .h1 {
 .bg-box {
 	text-align: center;
 	background-color: #F3F3F4;
+}
+
+.footer {
+	padding: 10px;
+	text-align: center;
 } 
+
+/* ---- MEDIA QUERIES ---- */
+
+@media (min-width: 480px) {
+	/* change to fixed-nav? */
+	.navbar-nav li a {	
+		
+	}
+}
+
+/* --- default Boostrap break point --- */
+@media (min-width: 768px) {
+	/* change to fixed nav display, get rid of slider nav */
+}
+
+@media (min-width: 992px) {
+	/* begin 2-column display of settings? */
+}
+
+@media (min-width: 1200px) {
+
+}
