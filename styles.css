@@ -91,7 +91,7 @@ h2, .h2 {
 	#login-push.container-fluid {
 		margin-top: 20px;
 		background-color: #1BB394;
-	}
+	} 
 
 	#login h2 {
 		color: #F3F3F4;
@@ -235,6 +235,13 @@ h2, .h2 {
 	.navbar-default .navbar-brand {
 		margin-top: 0;
 	}
+
+	/* ---- Login Page ---- */
+
+		#login-push.container-fluid {
+			margin-top: 0;
+		} 
+
 }
 
 @media (min-width: 992px) {
