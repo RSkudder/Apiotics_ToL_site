@@ -206,8 +206,16 @@ h2, .h2 {
 
 /* --- default Boostrap break point --- */
 @media (min-width: 768px) {
-	/* change to fixed nav display, get rid of slider nav */
+	/* fix ToL title on Login page */
 	img.hamburg {
+		display: none;
+	}
+
+	.menu-label {
+		display: none;
+	}
+
+	#menu-toggle {
 		display: none;
 	}
 
