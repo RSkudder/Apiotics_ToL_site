@@ -107,10 +107,12 @@ h2, .h2 {
 
 .navbar-nav {
 	box-sizing: border-box;
-	width: 90%;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
 	position: absolute;
 	background-color: #263A4A;
-	left: -90%;
+	left: -100%;
 	transition: all .3s ease-in-out;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
